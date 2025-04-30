@@ -1,0 +1,13 @@
+{
+  "HighestAuditID": 634408,
+  "LowestAuditID": 634000,
+  "AUTH_URL": "https://your-auth-server.com/token",
+  "API_URL": "https://your-api-endpoint.com/data",
+  "CLIENT_ID": "your-client-id",
+  "CLIENT_SECRET": "your-client-secret",
+  "GRANT_TYPE": "client_credentials",
+  "SYSLOG_SERVER": "your.syslog.receiver",
+  "SYSLOG_PORT": 514,
+  "HOSTNAME": "myhost",
+  "TAG": "audit_event"
+}
