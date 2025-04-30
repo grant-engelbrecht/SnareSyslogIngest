@@ -6,13 +6,13 @@ The config file contains information relevant to the API being called.  The sysl
 The json data contains an ascending audit ID.  The python script uses this to compare to the last written ID to ensure no duplication of data is enacted.
 
  Example of Config paramaters.
-      "HighestAuditID": 634408,
-      "LowestAuditID": 634000,
-      "AUTH_URL": "https://your-auth-server.com/token",
-      "API_URL": "https://your-api-endpoint.com/data",
-      "CLIENT_ID": "your-client-id",
-      "SYSLOG_SERVER": "your.syslog.receiver",
-      "SYSLOG_PORT": 514,
+      "HighestAuditID": 634408,  
+      "LowestAuditID": 634000,  
+      "AUTH_URL": "https://your-auth-server.com/token",  
+      "API_URL": "https://your-api-endpoint.com/data",  
+      "CLIENT_ID": "your-client-id",  
+      "SYSLOG_SERVER": "your.syslog.receiver",  
+      "SYSLOG_PORT": 514,  
 
 In this example the returned data takes the json format:
 {
