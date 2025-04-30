@@ -14,7 +14,7 @@ The json data contains an ascending audit ID.  The python script uses this to co
       "SYSLOG_SERVER": "your.syslog.receiver",  
       "SYSLOG_PORT": 514,  
 
-In this example the returned data takes the json format:
+In this example the returned data takes the json format:  
 {
     "items": [
         {
