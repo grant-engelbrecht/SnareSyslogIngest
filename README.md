@@ -5,7 +5,7 @@ This example will query an API endpoint with token authetication, format the jso
 The config file contains information relevant to the API being called.  The syslog reciever is the IP of the Snare Central server, or other destination SIEM
 The json data contains an ascending audit ID.  The python script uses this to compare to the last written ID to ensure no duplication of data is enacted.
 
- Example of Config paramaters.
+ Example of Config paramaters.  
       "HighestAuditID": 634408,  
       "LowestAuditID": 634000,  
       "AUTH_URL": "https://your-auth-server.com/token",  
