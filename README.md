@@ -62,3 +62,6 @@ In this example the returned data takes the json format:
 '''
 
 
+The output from the python script is a call to a Snare Syslog endpoint with the formatted data.
+
+This Python script is scheduled to run hourly by placing a bash script which calls our python code in the **/data/Snare/RunHourly#** directory within the Snare Central server.
